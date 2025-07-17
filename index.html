@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veggie Cart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <!-- Header / Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top shadow-sm">
+            <div class="container">
+                <a class="navbar-brand fw-bold fs-3" href="#">VeggieMart</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-4">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Shop</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="shop.html">All Products</a></li>
+                                <li><a class="dropdown-item" href="fruits.html">Fruits</a></li>
+                                <li><a class="dropdown-item" href="vegetables.html">Vegetables</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-light ms-lg-4" data-bs-toggle="offcanvas" data-bs-target="#offcanvas">
+                        <i class="bi bi-cart-fill"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <main>
+        <section class="container py-5">
+            <h2 class="mb-4 text-success text-center">Fresh Fruits & Vegetables</h2>
+            <div class="row g-4">
+               
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card text-center">
+                        <img src="./images/apple.jpg" class="card-img-top card-img" alt="Apple">
+                        <div class="card-body">
+                            <h5 class="card-title">Apple</h5>
+                            <p class="price text-danger">$3.50 / kg</p>
+                            <button class="btn btn-add add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+              
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card text-center">
+                        <img src="./images/banana.jpeg" class="card-img-top card-img" alt="Banana">
+                        <div class="card-body">
+                            <h5 class="card-title">Banana</h5>
+                            <p class="price text-danger">$1.80 / kg</p>
+                            <button class="btn btn-add add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card text-center">
+                        <img src="./images/tomato.jpeg" class="card-img-top card-img" alt="Tomato">
+                        <div class="card-body">
+                            <h5 class="card-title">Tomato</h5>
+                            <p class="price text-danger">$2.20 / kg</p>
+                            <button class="btn btn-add add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card text-center">
+                        <img src="./images/spinach.jpeg" class="card-img-top card-img" alt="Spinach">
+                        <div class="card-body border-1">
+                            <h5 class="card-title">Spinach</h5>
+                            <p class="price text-danger">$1.50 / bunch</p>
+                            <button class="btn btn-add add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card text-center">
+                        <img src="./images/orange.jpeg" class="card-img-top card-img" alt="Orange">
+                        <div class="card-body">
+                            <h5 class="card-title">Orange</h5>
+                            <p class="price text-danger">$2.00 / kg</p>
+                            <button class="btn btn-add add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card text-center">
+                        <img src="./images/cabbage.jpeg" class="card-img-top card-img" alt="Cabbage">
+                        <div class="card-body">
+                            <h5 class="card-title">Cabbage</h5>
+                            <p class="price text-danger">$1.90 / pc</p>
+                            <button class="btn btn-add add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card text-center">
+                        <img src="./images/graps.jpeg" class="card-img-top card-img img-fluid" alt="Grapes">
+                        <div class="card-body">
+                            <h5 class="card-title">Grapes</h5>
+                            <p class="price text-danger">$4.00 / kg</p>
+                            <button class="btn btn-add add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card text-center">
+                        <img src="./images/potato.jpeg" class="card-img-top card-img" alt="Potato">
+                        <div class="card-body">
+                            <h5 class="card-title">Potato</h5>
+                            <p class="price text-danger">$1.20 / kg</p>
+                            <button class="btn btn-add add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+             
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card text-center">
+                        <img src="./images/onion.jpeg" class="card-img-top card-img" alt="Onion">
+                        <div class="card-body">
+                            <h5 class="card-title">Onion</h5>
+                            <p class="price text-danger">$1.70 / kg</p>
+                            <button class="btn btn-add add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card text-center">
+                        <img src="./images/pineapple.jpeg" class="card-img-top card-img" alt="Pineapple">
+                        <div class="card-body">
+                            <h5 class="card-title">Pineapple</h5>
+                            <p class="price text-danger">$3.00 / pc</p>
+                            <button class="btn btn-add add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cart Offcanvas -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title">Your Cart</h5>
+                <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul id="navbarNav" class="list-unstyled"></ul>
+                <div class="mt-4 fw-bold">Total: $<span id="totalPrice">0.00</span></div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-success text-white pt-5 pb-3 mt-5">
+        <div class="container">
+            <div class="row text-center text-lg-start">
+                <div class="col-lg-4 mb-4">
+                    <h4 class="fw-bold">VeggieMart</h4>
+                    <p>Freshness delivered to your doorstep. Buy fruits and vegetables with confidence and ease.</p>
+                </div>
+                <div class="col-lg-2 mb-4">
+                    <h6 class="fw-bold">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+                        <li><a href="about.html" class="text-white text-decoration-none">About</a></li>
+                        <li><a href="shop.html" class="text-white text-decoration-none">Shop</a></li>
+                        <li><a href="contact.html" class="text-white text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h6 class="fw-bold">Contact Us</h6>
+                    <p>Email: support@veggiemart.com</p>
+                    <p>Phone: +91 98765 43210</p>
+                    <p>Location: Navsari</p>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h6 class="fw-bold">Follow Us</h6>
+                    <a href="#" class="text-white me-2"><i class="bi bi-facebook fs-5"></i></a>
+                    <a href="#" class="text-white me-2"><i class="bi bi-instagram fs-5"></i></a>
+                    <a href="#" class="text-white me-2"><i class="bi bi-twitter fs-5"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-youtube fs-5"></i></a>
+                </div>
+            </div>
+            <hr class="border-light" />
+            <p class="text-center mb-0">&copy; 2025 VeggieMart. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
