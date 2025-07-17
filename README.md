@@ -32,7 +32,7 @@ Bootstrap Icons – For UI icons
 
 project-folder/
 
-│
+
 ├── index.html               # Main HTML file with product display and cart
 
 ├── style.css                # Custom styles for cards, buttons, and layout
