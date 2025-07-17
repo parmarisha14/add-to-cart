@@ -31,6 +31,7 @@ Bootstrap Icons – For UI icons
 📂 Project Structure:
 
 project-folder/
+
 │
 ├── index.html               # Main HTML file with product display and cart
 
